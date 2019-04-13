@@ -1,0 +1,75 @@
+#wall
+{
+	height: 100%;
+}
+
+#conceptContainer
+{
+	display: flex;
+	flex-direction: row;
+}
+
+p,h1,h2{
+	color: black;
+}
+
+#conceptTextContainer
+{
+	width: 120%;
+	margin-top: 2%;
+	margin-left: 8%;
+}
+
+#conceptTextContainer p
+{
+	font-size: 1vw;
+	width: 100%;
+}
+
+
+#appImg
+{
+	margin-top: 6%;
+}
+
+
+#btn_container
+{
+	margin-top: 10%;
+	display: flex;
+	justify-content: space-between;
+	width: 80%;
+	margin-left: 8%;
+}
+
+
+#features_btn, #documentation_btn
+{
+	font-size: 1.1em;
+    padding: 10%;
+    border: none;
+    background: black;
+   	border-radius: 15px;
+    color: #fff;
+    cursor: pointer;
+}
+
+#features_btn
+{
+	width: 200px;
+}
+
+#documentation_btn
+{
+	height: 81px;
+	width: 200px;
+}
+
+#features_btn:hover, #features_btn:focus {
+    opacity: 0.8;
+}
+
+
+#documentation_btn:hover, #documentation_btn:focus {
+    opacity: 0.8;
+}

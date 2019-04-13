@@ -1,0 +1,24 @@
+@font-face /*Allows us to import a font from the directory*/
+{
+	font-family: customFont;
+	src: url('../Azur-Bold.woff');
+}
+
+html,body
+{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+
+body
+{
+	font-family: customFont;
+}
+
+
+p,h1,h2,h3
+{
+	color: white;
+}
