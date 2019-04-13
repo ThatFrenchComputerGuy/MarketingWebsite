@@ -17,7 +17,12 @@
  	margin-top: 0;
 }
 .main-nav li:first-child {
-  	margin-left: 20%;
+  	margin-left: 18%;
+}
+
+.main-nav li:last-child {
+	position: absolute;
+	right: 0;
 }
 
 .main-nav li
@@ -31,7 +36,7 @@
 	font-size: 1.5em;
 	display: block;
 	padding: 15px;
-	padding-right: 60px;
+	padding-right: 30px;
 	text-decoration: none;
 }
 
