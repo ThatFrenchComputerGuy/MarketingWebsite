@@ -6,6 +6,7 @@
 	<link rel="stylesheet" href="css/style.css" />
 	<link rel="stylesheet" href="css/nav.css" />
 	<link rel="stylesheet" href="css/concept.css" />
+	<link rel="stylesheet" href="css/usermanual.css" />
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 	<script src="smoothslide.js"></script>
@@ -19,6 +20,10 @@
 
 	<section id="wall">
 		<?php include "php/concept.php" ;?>
-	</section>	
+	</section>
+
+	<section id="usermanual_section">
+		<?php include "php/usermanual.php" ;?>
+	</section>
 </body>
 </html>
