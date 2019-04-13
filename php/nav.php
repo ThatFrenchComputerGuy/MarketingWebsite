@@ -9,9 +9,10 @@
 		<nav>
 			<ul class="main-nav">
 				<li><a href="index.php">The Concept</a></li>
-				<li><a href="php/">The features</a></li>
-				<li><a href="php/">Documentation</a></li>
+				<li><a href="php/">User Manual</a></li>
+				<li><a href="php/">Developper Manual</a></li>
 				<li><a href="php/">The team</a></li>
+				<li><a href="php/">My access</a></li>
 			</ul>
 		</nav>
 	</div>
