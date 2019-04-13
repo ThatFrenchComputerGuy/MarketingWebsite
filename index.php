@@ -10,7 +10,6 @@
 
 	<script src="smoothslide.js"></script>
 
-	
 </head>
 
 <body onload="smoothscroll()">
@@ -20,7 +19,6 @@
 
 	<section id="wall">
 		<?php include "php/concept.php" ;?>
-	</section>
-
+	</section>	
 </body>
 </html>
