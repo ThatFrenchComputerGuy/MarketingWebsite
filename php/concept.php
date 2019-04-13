@@ -2,27 +2,57 @@
 	<div id="conceptContainer">
 
 		<div id = "conceptTextContainer" >
-			<h2>The Concept</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec sagittis massa. Nulla facilisi. Cras id arcu lorem, et semper purus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis vel enim mi, in lobortis sem. Vestibulum luctus elit eu libero ultrices id fermentum sem sagittis. Nulla imperdiet mauris sed sapien dignissim id aliquam est aliquam. Maecenas non odio ipsum, a elementum nisi. Mauris non erat eu erat placerat convallis. Mauris in pretium urna. Cras laoreet molestie odio, consequat consequat velit commodo eu. Integer vitae lectus ac nunc posuere pellentesque non at eros. Suspendisse non lectus lorem.</p>
-			<p>Vivamus sed libero nec mauris pulvinar facilisis ut non sem. Quisque mollis ullamcorper diam vel faucibus. Vestibulum sollicitudin facilisis feugiat. Nulla euismod sodales hendrerit. Donec quis orci arcu. Vivamus fermentum magna a erat ullamcorper dignissim pretium nunc aliquam. Aenean pulvinar condimentum enim a dignissim. Vivamus sit amet lectus at ante adipiscing adipiscing eget vitae felis. In at fringilla est. Cras id velit ut magna rutrum commodo. Etiam ut scelerisque purus. Duis risus elit, venenatis vel rutrum in, imperdiet in quam. Sed vestibulum, libero ut bibendum consectetur, eros ipsum ultrices nisl, in rutrum diam augue non tortor. Fusce nec massa et risus dapibus aliquam vitae nec diam.</p>
+			<div id="concept_intro">
+				<h2>The Concept</h2>
+				<p>"The aim of this project is to produce an app that a sales person can use to plan customer visits, get an update on how the customer's account is doing, and pass information back to the office after a visit for the account of <a href="https://kerridgecs.com">Kerridge Commercial Systems (KCS)</a>"</p>
+			</div>
+			<div id="illustrations_ft">
+				<div class="illustrations_col_ft">
+					<div class="features">
+						<img src="images/authentication" alt="login_illustration" class="img_illustration_ft"> <p>Personnal account</p>
+					</div>
 
-			<p>Phasellus ligula massa, congue ac vulputate non, dignissim at augue. Sed auctor fringilla quam quis porttitor. Praesent vitae dignissim magna. Pellentesque quis sem purus, vel elementum mi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas consectetur euismod urna. In hac habitasse platea dictumst. Quisque tincidunt porttitor vestibulum. Ut iaculis, lacus at molestie lacinia, ipsum mi adipiscing ligula, vel mollis sem risus eu lectus. Nunc elit quam, rutrum ut dignissim sit amet, egestas at sem.</p>
+					<div class="features">
+						<img src="images/client_list.svg" alt=client_list_illustration class="img_illustration_ft"> <p>Consult the clients list</p>
+					</div>
+				</div>
+				<div class="illustrations_col_ft">
+					<div class="features" id="meeting">
+						<img src="images/calendar.svg" alt=calendar_illustration class="img_illustration_ft"> <p>Schedule a meeting</p>
+					</div>
+
+					<div class="features">
+						<img src="images/notes.svg" alt=notes_illustration class="img_illustration_ft"> <p>Take meeting notes</p>
+					</div>
+				</div>
+
+				<div class="illustrations_col_ft">
+					
+					<div class="features" id="profile">
+						<img src="images/content_digital.svg" alt=client_profile_illustration class="img_illustration_ft"> <p>Consult client profile</p>
+					</div>
+
+					<div class="features">
+						<img src="images/analyze_data.svg" alt=data_analysis class="img_illustration_ft"> <p>Consult past sales</p>
+					</div>
+				</div>
+			</div>
 		</div>
 
 		<div>
 			<video width="640" height="480" autoplay loop id="appImg"><source src="images/animation.mp4" type="video/mp4"></video>
+			</div>
 		</div>
-	</div>
 
-	<script>
-		function smoothscroll(){
-			$(document).on('click', 'a[href^="#"]', function (event) {
-				event.preventDefault();
+		<script>
+			function smoothscroll(){
+				$(document).on('click', 'a[href^="#"]', function (event) {
+					event.preventDefault();
 
-				$('html, body').animate({
-					scrollTop: $($.attr(this, 'href')).offset().top
-				}, 500);
-			});
-		}
-	</script>
-</article>
+					$('html, body').animate({
+						scrollTop: $($.attr(this, 'href')).offset().top
+					}, 500);
+				});
+			}
+		</script>
+	</article>
