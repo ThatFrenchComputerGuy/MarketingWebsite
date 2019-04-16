@@ -21,3 +21,10 @@ p,h1,h2,h3
 {
 	color: white;
 }
+
+.pdf_dim
+{
+	width: 92%;
+	height: 43vw;
+	margin-left: 5%;
+}
