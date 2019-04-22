@@ -12,7 +12,7 @@
 				<li><a href="#usermanual_anchor">User Manual</a></li>
 				<li><a href="#devmanual_anchor">Developper Manual</a></li>
 				<li><a href="#team">The team</a></li>
-				<li><a href="php/">My access</a></li>
+				<li id = "login"><a href="#login">My access</a></li>
 			</ul>
 		</nav>
 	</div>

@@ -1,0 +1,47 @@
+#loginFields
+{
+    display: flex;
+}
+#loginContainer
+{
+    border: 1px solid #e5006c;
+    border-radius: 3px;
+    border-radius: 1vw;
+    padding: 3vw;
+    background-color: #e5006c;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+input[type=text]
+{
+    width:100%;
+    padding-top: 0.5vh;
+    padding-bottom: 0.5vh;
+    font-size: 25vm;
+    text-align: center;
+    border: 1px solid #dcdcdc;
+    border-radius: 3px;
+}
+input[type=submit]
+{
+    background-color: #dcdcdc;
+    width: 100%;
+    border: 1px solid #dcdcdc;
+    border-radius: 3px;
+    border-radius: 1vm;
+}
+#blackout
+{
+    display: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    background-color: black;
+    opacity: 0.8;
+}

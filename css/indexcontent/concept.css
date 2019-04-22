@@ -1,0 +1,75 @@
+#wall
+{
+	height: 53.1vw;
+}
+
+#conceptContainer
+{
+	display: flex;
+	flex-direction: row;
+}
+
+p,h1,h2{
+	color: black;
+}
+
+#conceptTextContainer
+{
+	margin-top: 7%;
+	margin-left: 10%;
+}
+
+#conceptTextContainer p
+{
+	font-size: 1.1vw;
+	width: 100%;
+}
+
+#concept_intro
+{
+	margin-bottom: 6%;
+}
+
+#appImg
+{
+	margin-top: 26%;
+}
+
+#illustrations_ft
+{
+	display: flex;
+	flex-direction: row;
+}
+
+.illustrations_col_ft
+{
+	display: flex;
+	flex-direction: column;
+}
+
+.features
+{
+	margin-bottom: 2%;
+}
+
+.features p
+{
+	margin-left: 9%;
+}
+
+.img_illustration_ft
+{
+	width: 75%;
+	height: 75%;
+	margin-left: 5%;
+}
+
+#meeting
+{
+	margin-bottom: 4.8%;
+}
+
+#profile
+{
+	margin-bottom: 8.4%;
+}

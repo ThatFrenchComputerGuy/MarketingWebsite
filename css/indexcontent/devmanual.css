@@ -1,0 +1,11 @@
+#devmanual_section
+{
+	height: 48vw;
+}
+
+#devmanual_section h2
+{
+	font-size: 1.7em;
+	font-style: italic;
+	text-align: center;
+}

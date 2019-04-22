@@ -5,10 +5,11 @@
 	<title>Page d'accueil</title>
 	<link rel="stylesheet" href="css/style.css" />
 	<link rel="stylesheet" href="css/nav.css" />
-	<link rel="stylesheet" href="css/concept.css" />
-	<link rel="stylesheet" href="css/usermanual.css" />
-	<link rel="stylesheet" href="css/devmanual.css" />
-	<link rel="stylesheet" href="css/team.css" />
+	<link rel="stylesheet" href="css/indexcontent/concept.css" />
+	<link rel="stylesheet" href="css/indexcontent/usermanual.css" />
+	<link rel="stylesheet" href="css/indexcontent/devmanual.css" />
+	<link rel="stylesheet" href="css/indexcontent/team.css" />
+    <link rel="stylesheet" href="css/indexcontent/login.css"/>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 	<script src="smoothslide.js"></script>
@@ -17,24 +18,27 @@
 </head>
 
 <body onload="smoothscroll()">
+    <div id = "blackout"></div>
+
 	<header>
 		<?php include "php/nav.php" ;?>
+        <?php include "php/indexcontent/login.php" ;?>
 	</header>
 
 	<section id="wall">
-		<?php include "php/concept.php" ;?>
+		<?php include "php/indexcontent/concept.php" ;?>
 	</section>
 
 	<section id="usermanual_section">
-		<?php include "php/usermanual.php" ;?>
+		<?php include "php/indexcontent/usermanual.php" ;?>
 	</section>
 
 	<section id="devmanual_section">
-		<?php include "php/devmanual.php" ;?>
+		<?php include "php/indexcontent/devmanual.php" ;?>
 	</section>
 
 	<section>
-		<?php include "php/team.php" ;?>
+		<?php include "php/indexcontent/team.php" ;?>
 	</section>
 </body>
 </html>
