@@ -16,7 +16,7 @@
 			</div>
 
 			<div id="nick">
-				<img src="images/nick.jpg" class="imgSize">
+				<img src="images/nick.JPG" class="imgSize">
 				<p class="name">Nick</p>
 				<p class="title">-Team Manager-</p>
 			</div>
@@ -24,7 +24,7 @@
 
 		<div id="team2row">
 			<div id="jason">
-				<img src="images/jason.jpg" class="imgSize">
+				<img src="images/jason.JPG" class="imgSize">
 				<p class="name">Jason</p>
 				<p class="title">-Senior Developper-</p>
 			</div>
@@ -43,19 +43,19 @@
 		</div>
 		<div id="team3row">
 			<div id="matthew">
-				<img src="images/matthew.jpg" class="imgSize">
+				<img src="images/matthew.JPG" class="imgSize">
 				<p class="name">Matthew</p>
 				<p class="title">-Developer-</p>
 			</div>
 
 			<div id="raven">
-				<img src="images/raven.jpg" class="imgSize">
+				<img src="images/raven.JPG" class="imgSize">
 				<p class="name">Raven</p>
 				<p class="title">-Developer-</p>
 			</div>
 
 			<div id="ross">
-				<img src="images/ross.jpg" class="imgSize">
+				<img src="images/ross.JPG" class="imgSize">
 				<p class="name">Ross</p>
 				<p class="title">-Developer-</p>
 			</div>
