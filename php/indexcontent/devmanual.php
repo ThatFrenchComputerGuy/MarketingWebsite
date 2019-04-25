@@ -1,5 +1,5 @@
 <article>
-	<h2 id="devmanual_anchor" >Consult our Developper Manual</h2>
+	<h2>Consult our Developer Manual <italic>(Use the slider)</italic></h2>
 
-	<embed src="specs.pdf" class="pdf_dim" />
+	<embed src="devManual.pdf" class="pdf_dim" />
 </article>

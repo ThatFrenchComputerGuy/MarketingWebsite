@@ -8,3 +8,7 @@ $(document).on('click', 'a[href^="#"]', function (event) {
     }, 500);
 });
 }
+
+function smoothscroll2(){
+	window.scroll(0,500);
+}

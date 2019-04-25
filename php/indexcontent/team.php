@@ -26,7 +26,7 @@
 			<div id="jason">
 				<img src="images/jason.JPG" class="imgSize">
 				<p class="name">Jason</p>
-				<p class="title">-Senior Developper-</p>
+				<p class="title">-Senior Developer-</p>
 			</div>
 
 			<div id="conor">

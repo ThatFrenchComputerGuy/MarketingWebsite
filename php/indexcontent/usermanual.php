@@ -1,6 +1,6 @@
 <article>
-	<h2 id="usermanual_anchor">Consult our User Manual</h2>
+	<h2>Consult our User Manual <italic>(Use the slider)</italic></h2>
 
-	<embed src="specs.pdf" class="pdf_dim" />
+	<embed src="userManual.pdf" class="pdf_dim" />
 
 </article>

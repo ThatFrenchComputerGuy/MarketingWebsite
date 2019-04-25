@@ -12,33 +12,48 @@
     <link rel="stylesheet" href="css/indexcontent/login.css"/>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-	<script src="smoothslide.js"></script>
+	<!-- Please note that I do own a commercial licence for this plugin which can be found in the script below -->
+	<script src="fullpage.js"></script>
 
 	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 </head>
 
-<body onload="smoothscroll()">
-    <div id = "blackout"></div>
+<body>
+	
+	    <div id = "blackout"></div>
 
-	<header>
-		<?php include "php/nav.php" ;?>
-        <?php include "php/indexcontent/login.php" ;?>
-	</header>
+		<header>
+			<?php include "php/nav.php" ;?>
+	        <?php include "php/indexcontent/login.php" ;?>
+		</header>
 
-	<section id="wall">
-		<?php include "php/indexcontent/concept.php" ;?>
-	</section>
+	<div id="fullpage">	
+		<section class="section" id="wall">
+			<?php include "php/indexcontent/concept.php" ;?>
+		</section>
 
-	<section id="usermanual_section">
-		<?php include "php/indexcontent/usermanual.php" ;?>
-	</section>
+		<section class="section" id="usermanual_section">
+			<?php include "php/indexcontent/usermanual.php" ;?>
+		</section>
 
-	<section id="devmanual_section">
-		<?php include "php/indexcontent/devmanual.php" ;?>
-	</section>
+		<section class="section" id="devmanual_section">
+			<?php include "php/indexcontent/devmanual.php" ;?>
+		</section>
 
-	<section>
-		<?php include "php/indexcontent/team.php" ;?>
-	</section>
+		<section class="section" id="team_section">
+			<?php include "php/indexcontent/team.php" ;?>
+		</section>
+	</div>
+
+	<!-- I own a commercial licence -->
+		<script type="text/javascript">
+	    new fullpage('#fullpage', {
+	    licenseKey: 'D27032A3-7B9948EC-84472083-5EB2E21E',
+	    anchors: ['theConcept', 'userManual', 'devManual', 'theTeam'],
+        navigation:true,
+        showActiveTooltip: true,
+        menu: '#menu'
+		});
+		</script>
 </body>
 </html>
