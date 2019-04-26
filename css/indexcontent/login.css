@@ -15,32 +15,41 @@
     transform: translate(-50%, -50%);
     z-index: 2;
 }
+input
+{
+    width: 100%;
+}
 input[type=text]
 {
-    width:100%;
     padding-top: 0.5vh;
     padding-bottom: 0.5vh;
-    font-size: 25vm;
+    font-size: 0.8vw;
     text-align: center;
     border: 1px solid #dcdcdc;
     border-radius: 3px;
 }
 input[type=submit]
 {
+    font-size: 0.8vw;
     background-color: #dcdcdc;
-    width: 100%;
     border: 1px solid #dcdcdc;
     border-radius: 3px;
-    border-radius: 1vm;
+    border-radius: 0.5vw;
 }
+input[type=submit]:hover
+{
+    border-color: #c5c5df;
+    background-color: #c5c5df;
+}
+
 #blackout
 {
     display: none;
-    position: absolute;
+    position: fixed;
+    height: 100%;
+    width: 100%;
     top: 0;
-    bottom: 0;
     left: 0;
-    right: 0;
     z-index: 1;
     background-color: black;
     opacity: 0.8;
