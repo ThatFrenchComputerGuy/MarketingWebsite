@@ -2,7 +2,8 @@
 <html lang="fr">
 <head>
 	<meta charset="utf-8" />
-	<title>Page d'accueil</title>
+	<title>Kerridge App</title>
+	<link rel="shortcut icon" type="image/png" href="images/tabLogo.png"/>
 	<link rel="stylesheet" href="css/style.css" />
 	<link rel="stylesheet" href="css/nav.css" />
 	<link rel="stylesheet" href="css/indexcontent/concept.css" />
