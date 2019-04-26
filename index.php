@@ -13,7 +13,6 @@
     <link rel="stylesheet" href="css/indexcontent/login.css"/>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
-	<script src="smoothslide.js"></script>
 	<!-- Please note that I do own a commercial licence for this plugin which can be found in the script below -->
 	<script src="fullpage.js"></script>
 </head>
