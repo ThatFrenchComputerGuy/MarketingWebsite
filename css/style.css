@@ -1,7 +1,7 @@
 @font-face /*Allows us to import a font from the directory*/
 {
 	font-family: customFont;
-	src: url('../Azur-Bold.woff');
+	src: url('../HabelDemo.otf');
 }
 
 html,body
@@ -27,4 +27,8 @@ p,h1,h2,h3
 	width: 92%;
 	height: 43vw;
 	margin-left: 5%;
+}
+h2
+{
+	font-size: 1.8em;
 }

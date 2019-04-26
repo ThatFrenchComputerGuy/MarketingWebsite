@@ -39,20 +39,7 @@
 			</div>
 		</div>
 
-		<div>
-			<video width="640" height="480" autoplay loop id="appImg"><source src="images/animation.mp4" type="video/mp4"></video>
-			</div>
+		<div id="appImg">
+			<video width="300" height="480" autoplay loop><source src="images/animation.mp4" type="video/mp4"></video>
 		</div>
-
-		<script>
-			function smoothscroll(){
-				$(document).on('click', 'a[href^="#"]', function (event) {
-					event.preventDefault();
-
-					$('html, body').animate({
-						scrollTop: $($.attr(this, 'href')).offset().top
-					}, 500);
-				});
-			}
-		</script>
 	</article>

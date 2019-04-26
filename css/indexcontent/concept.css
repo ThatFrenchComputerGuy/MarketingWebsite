@@ -1,8 +1,7 @@
 #wall
 {
-	height: 53.1vw;
+	margin-bottom: 10%;
 }
-
 #conceptContainer
 {
 	display: flex;
@@ -15,8 +14,10 @@ p,h1,h2{
 
 #conceptTextContainer
 {
-	margin-top: 7%;
+	margin-top: 1.5%;
+	width: 50%;
 	margin-left: 10%;
+	margin-right: 10%;
 }
 
 #conceptTextContainer p
@@ -32,7 +33,7 @@ p,h1,h2{
 
 #appImg
 {
-	margin-top: 26%;
+	margin-top: 9%;
 }
 
 #illustrations_ft
