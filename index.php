@@ -15,12 +15,10 @@
 
 	<!-- Please note that I do own a commercial licence for this plugin which can be found in the script below -->
 	<script src="fullpage.js"></script>
-
-	<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 </head>
 
 <body>
-	
+
 	    <div id = "blackout"></div>
 
 		<header>
@@ -28,7 +26,7 @@
 	        <?php include "php/indexcontent/login.php" ;?>
 		</header>
 
-	<div id="fullpage">	
+	<div id="fullpage">
 		<section class="section" id="wall">
 			<?php include "php/indexcontent/concept.php" ;?>
 		</section>

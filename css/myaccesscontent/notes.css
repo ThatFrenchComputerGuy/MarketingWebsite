@@ -1,0 +1,25 @@
+#notesContainer
+{
+    display: flex;
+    flex-direction: row;
+}
+#notesContentContainer
+{
+    margin-top: 7%;
+    margin-left: 10%;
+    border: 1px solid #e5006c;
+    border-radius: 3px;
+    border-radius: 1vw;
+    padding: 1.5vw;
+}
+#notes
+{
+    border: 1px solid #dcdcdc;
+    border-radius: 3px;
+    border-radius: 1vw;
+    padding: 1vw;
+}
+h2
+{
+    color: black;
+}
