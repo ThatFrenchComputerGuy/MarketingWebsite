@@ -14,13 +14,13 @@
 
 </head>
 
-<body>
+<body id = "myaccess">
 	<header>
         <?php include "php/nav.php" ;?>
     </header>
 
     <section>
-        <?php include "/php/myaccesscontent/notes.php" ;?>
+        <?php include "php/myaccesscontent/notes.php" ;?>
     </section>
 </body>
 </html>

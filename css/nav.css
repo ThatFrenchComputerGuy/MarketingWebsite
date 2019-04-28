@@ -50,6 +50,9 @@
 {
 	opacity: 0.8;
 }
-
+#myaccess .mainPage
+{
+    display: hidden;
+}
 
 
