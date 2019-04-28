@@ -1,4 +1,4 @@
-<?php include "/php/myaccesscontent/userfieldsvalidate.php" ;?>
+<?php include "php/myaccesscontent/userfieldsvalidate.php" ;?>
 
 <div id = "loginFields"  style = "display: none">
     <div id = "loginContainer">
@@ -26,7 +26,10 @@
                             type: "POST",
                             data: {token: token},
                             success: function(jsonObject, status) {
-                                window.location.replace(window.location.pathname + "myaccess.php");
+                                path = window.location.pathname.split("/");
+                                if (path[path.length - 1] == "index.php") { path.pop(); }
+                                path = path.join("/");
+                                window.location.replace(path + "/myaccess.php");
                             }
                         });
                     }

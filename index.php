@@ -28,7 +28,7 @@
 
 		<header>
 			<?php include "php/nav.php" ;?>
-	        <?php include __DIR__."/php/indexcontent/login.php" ;?>
+	        <?php include "php/indexcontent/login.php" ;?>
 		</header>
 
 	<div id="fullpage">
