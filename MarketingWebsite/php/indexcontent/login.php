@@ -26,7 +26,7 @@
                             type: "POST",
                             data: {token: token},
                             success: function(jsonObject, status) {
-                                window.location.replace("/myaccess.php");
+                                window.location.replace(window.location.pathname + "myaccess.php");
                             }
                         });
                     }
