@@ -1,13 +1,12 @@
 #navBarContainer
 {
 	width: 100%;
-    min-width: 1000px;
 }
 
 #logoContainer
 {
 	position: absolute;
-	margin-left: 7%;
+	margin-left: 7vw;
 }
 
 #logoImg
@@ -18,16 +17,18 @@
 .main-nav {
   	display: -webkit-flex;
   	display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: space-between;
   	background: black;
  	margin-top: 0;
 }
 .main-nav li:first-child {
-  	margin-left: 14%;
+  	margin-left: 20vw;
 }
 
 .main-nav li:last-child {
-	position: absolute;
-	right: 0;
+    margin-left: auto;
 }
 
 .main-nav li
@@ -37,7 +38,7 @@
 
 .main-nav a {
 	margin: 10px;
-	margin-left: 50px;
+	margin-left: auto;
 	color: white;
 	font-size: 1.5em;
 	display: block;
@@ -45,14 +46,97 @@
 	padding-right: 30px;
 	text-decoration: none;
 }
-
 .main-nav a:hover
 {
 	opacity: 0.8;
 }
-#myaccess .mainPage
+
+
+/* Following Media Query Dimensions Taken From
+   https://gist.github.com/gokulkrishh/242e68d1ee94ad05f488
+
+/* desktops */
+@media (min-width: 1281px)
 {
-    display: hidden;
+
 }
 
+/* laptops */
+@media (min-width: 1025px) and (max-width: 1280px)
+{
+    #logoImg
+    {
+        height: 66px;
+    }
+    .main-nav a {
+        font-size: 1.4vw;
+    }
+}
+
+/* portrait tablets */
+@media (min-width: 768px) and (max-width: 1024px)
+{
+    #logoImg
+    {
+        width: 13vw;
+        height: auto;
+    }
+    .main-nav a {
+        font-size: 1.5vw;
+        padding-right: 10px;
+        padding: 1vw;
+    }
+}
+
+/* tablets */
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape)
+{
+    #logoImg
+    {
+        width: 13vw;
+        height: auto;
+    }
+    .main-nav a {
+        font-size: 1.5vw;
+        padding-right: 10px;
+        padding: 1vw;
+    }
+}
+
+/* low res tables and landscape smartphones */
+@media (min-width: 481px) and (max-width: 767px)
+{
+    #logoImg
+    {
+        height: 34px;
+        width: auto;
+    }
+    .main-nav a {
+        font-size: 0.7em;
+        padding-right: 10px;
+        padding: 2px;
+    }
+}
+
+/* portrait smartphones */
+@media (min-width: 320px) and (max-width: 480px)
+{
+    #logoContainer
+    {
+        margin-left: auto;
+    }
+    .main-nav li:first-child {
+        margin-left: 35px;
+    }
+    #logoImg
+    {
+        height: 28px;
+        width: auto;
+    }
+    .main-nav a {
+        font-size: 0.5em;
+        padding-right: 10px;
+        padding: 0px;
+    }
+}
 

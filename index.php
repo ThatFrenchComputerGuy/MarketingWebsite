@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-	<meta charset="utf-8" />
+	<meta charset="utf-8" content="width=device-width, initial-scale=1.0"/>
 	<title>Kerridge App</title>
 	<link rel="shortcut icon" type="image/png" href="images/tabLogo.png"/>
 	<link rel="stylesheet" href="css/style.css" />

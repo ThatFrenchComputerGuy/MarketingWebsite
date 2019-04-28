@@ -23,7 +23,6 @@
                     type: "GET",
                     dataType: "text json",
                     success: function(meetings) {
-                        console.log(meetings);
                         $.each(meetings, function(key) {
                             var meetingText = "";
                             for (notes in meetings[key]["notes"]) {
