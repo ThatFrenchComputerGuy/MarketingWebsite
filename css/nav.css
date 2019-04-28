@@ -1,6 +1,7 @@
 #navBarContainer
 {
 	width: 100%;
+    min-width: 1000px;
 }
 
 #logoContainer
@@ -36,7 +37,7 @@
 
 .main-nav a {
 	margin: 10px;
-	margin-left: 110px;
+	margin-left: 3vw;
 	color: white;
 	font-size: 1.5em;
 	display: block;

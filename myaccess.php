@@ -1,3 +1,7 @@
+<?php
+    session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -10,7 +14,7 @@
 
 </head>
 
-<body onload="smoothscroll()">
+<body>
 	<header>
         <?php include "php/nav.php" ;?>
     </header>

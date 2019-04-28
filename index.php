@@ -1,3 +1,7 @@
+<?php
+    session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -15,6 +19,7 @@
 
 	<!-- Please note that I do own a commercial licence for this plugin which can be found in the script below -->
 	<script src="fullpage.js"></script>
+
 </head>
 
 <body>

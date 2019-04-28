@@ -4,7 +4,7 @@
     <div id = "loginContainer">
         <form>
             <input type = "text" name = "username" placeholder="username"><br />
-            <input type = "text" name = "password" placeholder="password"><br />
+            <input type = "password" name = "password" placeholder="password"><br />
             <br /><input type = "submit" value = "login">
         </form>
     </div>
@@ -18,9 +18,22 @@
                 type: "POST",
                 data: $("form").serialize(),
                 success: function(result) {
-                    document.location.href = result;
+                    if (result == null) { alert("Invalid Login Details"); }
+                    else {
+                        var token = $.parseJSON(result)["token"];
+                        $.ajax({
+                            url:"php/myaccesscontent/tokenhandler.php",
+                            type: "POST",
+                            data: {token: token},
+                            success: function(jsonObject, status) {
+                                window.location.replace("/myaccess.php");
+                            }
+                        });
+                    }
                 }
             });
+
+            return false;
         });
 
         $(function() {

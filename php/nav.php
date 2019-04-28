@@ -2,7 +2,7 @@
 <div id= "navBarContainer" class="topnav">
 
 	<div id="logoContainer">
-		<a href="#theConcept"><img src="images/logo.png" alt="logo" id="logoImg"/></a>
+		<a href="index.php"><img src="images/logo.png" alt="logo" id="logoImg"/></a>
 	</div>
 
 	<div id="navCategoriesContainer">

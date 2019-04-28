@@ -19,7 +19,7 @@ input
 {
     width: 100%;
 }
-input[type=text]
+input[type=text],input[type="password"]
 {
     padding-top: 0.5vh;
     padding-bottom: 0.5vh;
