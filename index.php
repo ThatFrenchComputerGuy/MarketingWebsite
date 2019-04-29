@@ -47,13 +47,17 @@
 		<section class="section" id="team_section">
 			<?php include "php/indexcontent/team.php" ;?>
 		</section>
+
+        <section class="section" id="download_section">
+            <?php include "php/indexcontent/download.php" ;?>
+        </section>
 	</div>
 
 	<!-- I own a commercial licence -->
 		<script type="text/javascript">
 	    new fullpage('#fullpage', {
 	    licenseKey: 'D27032A3-7B9948EC-84472083-5EB2E21E',
-	    anchors: ['theConcept', 'userManual', 'devManual', 'theTeam'],
+	    anchors: ['theConcept', 'userManual', 'devManual', 'theTeam', 'download'],
         navigation:true,
         showActiveTooltip: true,
         menu: '#menu'

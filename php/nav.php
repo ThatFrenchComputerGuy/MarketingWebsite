@@ -12,6 +12,7 @@
 				<li class = "mainPage" data-menuanchor="userManual"><a href="#userManual">User Manual</a></li>
 				<li class = "mainPage" data-menuanchor="devManual"><a href="#devManual">Developer Manual</a></li>
 				<li class = "mainPage" data-menuanchor="theTeam"><a href="#theTeam">The team</a></li>
+                <li class = "mainPage" data-menuanchor="download"><a href="#download">The App</a></li>
 				<li id = "login"><a href="#login">My access</a></li>
 			</ul>
 		</nav>
