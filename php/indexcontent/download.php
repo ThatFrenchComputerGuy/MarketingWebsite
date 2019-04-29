@@ -7,6 +7,7 @@
         flex-direction: column;
         justify-content: center;
     }
+   
     h2 {
         margin-top: 35vh;
         margin-left: auto;
@@ -22,6 +23,7 @@
         padding: 20px 50px;
         font: inherit;
         font-size: 2em;
+        cursor: pointer;
     }
 </style>
 
