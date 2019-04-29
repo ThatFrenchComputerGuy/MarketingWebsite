@@ -22,6 +22,7 @@
         padding: 20px 50px;
         font: inherit;
         font-size: 2em;
+        cursor: pointer;
     }
 </style>
 
