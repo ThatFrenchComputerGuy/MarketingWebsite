@@ -7,12 +7,12 @@
         flex-direction: column;
         justify-content: center;
     }
-    h2 {
+    #alignButton h2 {
         margin-top: 35vh;
         margin-left: auto;
         margin-right: auto;
     }
-    button {
+    #alignButton button {
         margin-left: auto;
         margin-right: auto;
         margin-top: 1vh;
