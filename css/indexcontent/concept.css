@@ -31,11 +31,6 @@ p,h1,h2{
 	margin-bottom: 6%;
 }
 
-#appImg
-{
-	margin-top: 9%;
-}
-
 #illustrations_ft
 {
 	display: flex;
@@ -74,3 +69,74 @@ p,h1,h2{
 {
 	margin-bottom: 8.4%;
 }
+
+/* Following Media Query Dimensions Taken From
+   https://gist.github.com/gokulkrishh/242e68d1ee94ad05f488
+
+/* desktops */
+@media (min-width: 1281px)
+{
+    #appImg
+    {
+        margin-top: 5%;
+    }
+}
+
+/* laptops */
+@media (min-width: 1025px) and (max-width: 1280px)
+{
+    #appImg
+    {
+        margin-top: 9%;
+    }
+}
+
+/* portrait tablets */
+@media (min-width: 768px) and (max-width: 1024px)
+{
+    #appImg
+    {
+        margin-top: 5vh;
+    }
+    #appImg video
+    {
+        height: 40vh;
+        width: 20vw;
+    }
+}
+
+/* tablets */
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape)
+{
+    #appImg
+    {
+        margin-top: 5vh;
+    }
+    #appImg video
+    {
+        height: 40vh;
+        width: 20vw;
+    }
+}
+
+/* low res tables and landscape smartphones */
+@media (min-width: 481px) and (max-width: 767px)
+{
+    #appImg video
+    {
+        height: 40vh;
+        width: 20vw;
+    }
+}
+
+/* portrait smartphones */
+@media (min-width: 320px) and (max-width: 480px)
+{
+    #appImg video
+    {
+        height: 30vh;
+        width: 20vw;
+    }
+}
+
+
