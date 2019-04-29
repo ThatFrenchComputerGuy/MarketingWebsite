@@ -26,22 +26,22 @@
                         $.each(meetings, function(key) {
                             var meetingText = "";
                             for (notes in meetings[key]["notes"]) {
-                                meetingText += "\n<b>" + meetings[key]["notes"][notes]["heading"] + "</b>";
-                                meetingText += "\n" + meetings[key]["notes"][notes]["contents"];
+                                meetingText += "\n\n<div class = 'notesBox'><span class = 'highlightText'><b>" + meetings[key]["notes"][notes]["heading"] + "</b></span>";
+                                meetingText += "\n" + meetings[key]["notes"][notes]["contents"] + "</div>";
                             }
                             if (meetingText == "") { meetingText = "\nNo Recorded Notes."; }
                             meetingText.trim();
 
+                            clientImg = meetings[key]["client"]["photo"];
+
                             var text = $([
                                 "<div class = 'notes'>",
-                                    "<div class = 'smallText'>Meeting ID: " + (key) + "</div>",
-                                    "Client: " + meetings[key]["client"]["name"],
-                                    "\nNotes: " + meetingText,
-                                    "<div class = 'smallText'>",
-                                    "Location: " +  meetings[key]["location"],
-                                    "Start Date: " + meetings[key]["startDate"],
-                                    "End Date: " + meetings[key]["endDate"],
+                                    "<div><img src=https://backend.team8dev.com/static/images/" + clientImg + "></img><span class = 'client'>Client: " + meetings[key]["client"]["name"] + "</span></div>",
+                                    "<div class = 'smallText'>Location: " +  meetings[key]["location"],
+                                    "Start Date: " + new Date(meetings[key]["startDate"]).toLocaleString("en-GB", { timeZone: "UTC" }),
+                                    "End Date: " + new Date(meetings[key]["endDate"]).toLocaleString("en-GB", { timeZone: "UTC" }),
                                     "</div>",
+                                    "\nNotes: " + meetingText,
                                 "</div>"
                             ].join("\n"));
 

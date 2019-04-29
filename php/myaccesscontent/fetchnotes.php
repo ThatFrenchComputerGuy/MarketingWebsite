@@ -20,10 +20,9 @@
         $meetingResultsJSON = curl_exec($curlSession);
         $meetingResults = json_decode($meetingResultsJSON, true);
 
-
         # add notes to meeting info
         foreach ($meetingResults as $key => $value) {
-            $notesURL = "https://backend.team8dev.com/note?meetingId=".$key;
+            $notesURL = "https://backend.team8dev.com/note?meetingId=".$meetingResults[$key]["id"];
             curl_setopt($curlSession, CURLOPT_URL, $notesURL);
             $notesResultsJSON = curl_exec($curlSession);
             $notesResults = json_decode($notesResultsJSON, true);

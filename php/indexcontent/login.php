@@ -18,8 +18,7 @@
                 type: "POST",
                 data: $("form").serialize(),
                 success: function(result) {
-                    if (result == null) { alert("Invalid Login Details"); }
-                    else {
+                    if ($.parseJSON(result)["token"]) {
                         var token = $.parseJSON(result)["token"];
                         $.ajax({
                             url:"php/myaccesscontent/tokenhandler.php",
@@ -32,7 +31,7 @@
                                 window.location.replace(path + "/myaccess.php");
                             }
                         });
-                    }
+                    } else { alert("Invalid Login Details"); }
                 }
             });
 
